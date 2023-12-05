@@ -1,0 +1,41 @@
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.weather-table {
+color: #fff;
+}
+
+.table th, .table td {
+    color: #fff;
+    border: 1px solid #fff; /* Teletext border color */
+    padding: 0.5rem;
+}
+
+.table th {
+    background-color: #000; /* Teletext table header background color */
+}
+
+.table td {
+    color: #fff important!; /* Teletext text color */
+    background-color: #111; /* Teletext table cell background color */
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #222; /* Teletext alternate row background color */
+}
+
+.emphasis {
+    font-weight: bold;
+    color: #f00; /* Teletext emphasis color */
+}

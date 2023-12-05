@@ -1,0 +1,15 @@
+@page "/{pageNo:int}"
+
+@if(pageNo == 100) {
+    <Weather/>
+}
+else {
+    <h1>
+        No page with number @pageNo
+    </h1>
+}
+
+@code {
+    [Parameter]
+    public int pageNo { get; set; }
+}
